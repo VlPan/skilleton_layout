@@ -1,0 +1,137 @@
+
+body{
+    background-color:#191412;
+}
+
+
+
+header{
+    text-align: center;
+    background:linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+    ),url("../images/header.jpg") no-repeat fixed center / cover;
+    padding: 60px 0 120px;
+    color: #fff;
+}
+
+header nav ul{
+    font-size: 0;
+}
+header nav li{
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    border: 10px solid white;
+    border-radius: 50%;
+    background: rgba(0,0,0,.6);
+    transition: all .2s;
+}
+
+header nav li:hover{
+    transform: scale(1.10);
+    background: none;
+    border-color: steelblue;
+}
+
+header nav li a{
+    padding: 50px;
+    font-size: 1.7rem;
+}
+
+header h1, h4, h3,h2{
+    text-shadow: 0 2px 0 black;
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1{
+    margin-top: 50px;
+    font-size: 5.2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header h4{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-bottom: 120px;
+}
+
+header .btn{
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 12px 30px;
+    border: 1px solid #f22b42;
+    color:#fff;
+    margin-bottom: 170px;
+    transition: all .4s;
+    text-transform: uppercase;
+    box-shadow:  0 3px 0 #f22b42;
+    border-bottom-color:  rgba(0,0,0,.1);
+}
+
+header .btn:hover{
+    background-color:  #f22b42;
+    transform: scale(1.10);
+    box-shadow:  0 -3px 0 #f22b42;
+    border-top-color: rgba(0,0,0,.1);
+    border-bottom-color: transparent;
+
+}
+
+header h3.start-title{
+    margin-bottom: 70px;
+    font-size: 3.0rem;
+    text-align: left;
+
+}
+
+header h3.start-title:after {
+    content: '';
+    display: block;
+    width: 10%;
+    padding-top: 3px;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.wave{
+    color:steelblue;
+}
+
+.love{
+    color:#f22b42;
+    font-size: 1.2em;
+}
+
+.about{
+    background: url("../images/about.jpg") no-repeat fixed center / cover;
+}
+
+.quote{
+
+}
+
+.connection{
+
+}
+
+.back{
+    background: url("../images/skills.jpg") no-repeat fixed center / cover;
+}
+
+.skills .item{
+    height: 80px;
+    width: 80px;
+}
+
+a{
+    text-align: center;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: steelblue;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+}
