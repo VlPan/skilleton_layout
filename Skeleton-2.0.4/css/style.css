@@ -1,6 +1,6 @@
 
 body{
-    background-color:#191412;
+    background-color:whitesmoke;
 }
 
 
@@ -31,7 +31,7 @@ header nav li{
 header nav li:hover{
     transform: scale(1.10);
     background: none;
-    border-color: steelblue;
+    border-color: #1eacff;
 }
 
 header nav li a{
@@ -40,7 +40,7 @@ header nav li a{
 }
 
 header h1, h4, h3,h2{
-    text-shadow: 0 2px 0 black;
+    text-shadow: 0 1px 0 black;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -57,7 +57,7 @@ header h4{
     margin-bottom: 120px;
 }
 
-header .btn{
+.btn{
     font-size: 1.2em;
     border-radius: 5px;
     padding: 12px 30px;
@@ -70,32 +70,33 @@ header .btn{
     border-bottom-color:  rgba(0,0,0,.1);
 }
 
-header .btn:hover{
+.btn:hover{
+    color:#fff;
     background-color:  #f22b42;
     transform: scale(1.10);
     box-shadow:  0 -3px 0 #f22b42;
     border-top-color: rgba(0,0,0,.1);
     border-bottom-color: transparent;
-
 }
 
-header h3.start-title{
+h2.start-title{
     margin-bottom: 70px;
     font-size: 3.0rem;
     text-align: left;
-
+    color: whitesmoke;
 }
 
-header h3.start-title:after {
+h2.start-title:after {
     content: '';
     display: block;
-    width: 10%;
+    width: 7%;
     padding-top: 3px;
     border-bottom: 3px solid whitesmoke;
+    box-shadow: 0 1px 0 rgba(0,0,0,.6);
 }
 
 .wave{
-    color:steelblue;
+    color:#1eacff;
 }
 
 .love{
@@ -124,6 +125,40 @@ header h3.start-title:after {
     width: 80px;
 }
 
+.area{
+    display: block;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .4s;
+    margin-bottom: 70px;
+}
+
+
+
+
+.area:first-of-type{
+    margin-right: 30px;
+}
+
+.area:hover{
+    transform: scale(1.10);
+}
+
+.area-icon{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.area-icon + p{
+    color: black;
+}
+
+.area-title{
+    margin-bottom: 30px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+
 a{
     text-align: center;
     outline: none;
@@ -134,4 +169,132 @@ a{
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
     -webkit-transition: all ease .3s;
     transition: all ease .3s;
+}
+
+.btn-blue{
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 12px 30px;
+    border: 1px solid #1eacff;
+    color:#fff;
+    margin-bottom: 70px;
+    transition: all .4s;
+    text-transform: uppercase;
+    box-shadow:  0 3px 0 #1eacff;
+    border-bottom-color:  rgba(0,0,0,.1);
+}
+
+.btn-blue:hover{
+    background-color:  #1eacff;
+    transform: scale(1.2);
+    box-shadow:  0 -3px 0 #1eacff;
+    border-top-color: rgba(0,0,0,.1);
+    border-bottom-color: transparent;
+    color: #fff;
+}
+
+.black{
+    color: black;
+}
+
+.about .start-title{
+    margin-top: 30px;
+    color: black;
+}
+
+.about .start-title:after{
+    border-bottom: 3px solid black;
+}
+
+.about .text{
+    background-color: rgba(255,255,255,0.6);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.6);
+}
+
+
+
+.about{
+    color:black;
+    text-align: center;
+}
+
+.skills{
+    text-align: center;
+}
+
+.about h4{
+    color:#1eacff;
+}
+
+.sh{
+    margin-top: 70px;
+    background: rgba(0,0,0,0.4);
+}
+
+
+.about h3{
+    margin: 70px auto 70px;
+    color: white;
+    font-weight: 500;
+}
+
+.about .btn{
+    margin-bottom: 70px;
+}
+
+/*.item{*/
+    /*background-color: #ededed;*/
+    /*height: 100px;*/
+    /*max-width: 100%;*/
+    /*font-size: 3.0rem;*/
+/*}*/
+
+
+.item{
+    min-height: 200px;
+    min-width: 80%;
+    margin: 0 auto;
+    background: url(http://lorempixel.com/400/300/city) no-repeat center/cover;
+    border-radius: 10px;
+}
+
+.skills h5{
+text-align: center;
+}
+.skills .start-title{
+    color: black;
+    margin-top: 30px;
+}
+
+.skills .start-title:after{
+    border-color: black;
+}
+
+.skills .area{
+    box-shadow: 0 0 5px rgba(0,0,0,.6);
+    cursor: pointer;
+}
+
+.skills .area h5{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+
+.skills .area:hover{
+    color:#f22b42;
+}
+
+.skills #visit .wave{
+    font-size: 4.0rem;
+}
+
+.skills .btn-blue{
+    color: black;
+}
+
+.skills .btn-blue:hover{
+    color: #fff;
 }
