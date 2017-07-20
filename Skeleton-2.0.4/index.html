@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -41,10 +42,10 @@
             <div class="twelve columns">
                 <nav>
                     <ul>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Work</a></li>
-                        <li><a href="">Writing</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#sh">Work</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#connection">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -91,8 +92,10 @@
     </div><!--End container-->
 </header>
 
-<section class="about">
+<section id="about">
+
     <div class="container">
+
         <div class="row">
             <div class="twelve columns">
                 <h2 class="start-title">Who am I</h2>
@@ -142,7 +145,7 @@
             </div>
         </div>
     </div><!--end of .row-->
-    <div class="sh">
+    <div id="sh">
         <div class="row">
             <div class="twelve columns">
                 <h3 class="center">Interested in samples of my work?</h3>
@@ -157,7 +160,7 @@
 </section>
 
 
-<section class="skills">
+<section id="skills">
     <div class="container">
         <div class="row">
             <div class="twelve columns">
@@ -169,7 +172,7 @@
         <div class="row">
             <div class="one-half column">
                 <div class="area">
-                    <div class="item">
+                    <div class="item first_">
 
                     </div>
                     <h5>Adaptive Design</h5>
@@ -178,11 +181,11 @@
 
             <div class="one-half column">
                 <div class="area">
-                    <div class="item">
+                    <div class="item second_">
 
                     </div>
 
-                    <h5>php</h5>
+                    <h5>php7</h5>
                 </div>
             </div>
         </div>
@@ -190,7 +193,7 @@
         <div class="row">
             <div class="one-half column">
                 <div class="area">
-                    <div class="item">
+                    <div class="item third_">
 
                     </div>
                     <h5>Symfony, Laravel, YII2</h5>
@@ -199,10 +202,10 @@
 
             <div class="one-half column">
                 <div class="area">
-                <div class="item">
+                    <div class="item four_">
 
-                </div>
-                <h5>Wordpress, OpenCart</h5>
+                    </div>
+                    <h5>Wordpress, OpenCart</h5>
                 </div>
             </div>
 
@@ -210,26 +213,27 @@
             <div class="row">
                 <div class="one-half column">
                     <div class="area">
-                    <div class="item">
+                        <div class="item five_">
 
-                    </div>
-                    <h5>Angular / React</h5>
+                        </div>
+                        <h5>Angular / React</h5>
                     </div>
                 </div>
 
                 <div class="one-half column">
                     <div class="area">
-                    <div class="item">
+                        <div class="item six_">
 
-                    </div>
-                    <h5>Gulp, Sass, etc.</h5>
+                        </div>
+                        <h5>Gulp, Sass, etc.</h5>
                     </div>
                 </div>
 
 
                 <div class="row">
                     <div class="twelve columns">
-                        <h4 id="visit"><span class="wave">~</span> You can visit my GitHub <span class="wave">~</span></h4>
+                        <h4 id="visit"><span class="wave">~</span> You can visit my GitHub <span class="wave">~</span>
+                        </h4>
                         <a href="#" class="btn-blue">Visit my GitHub</a>
                     </div>
                 </div>
@@ -239,43 +243,53 @@
 </section>
 
 
-<div class="back">
-    <section class="connection">
-        <div class="container">
-            <div class="row">
-                <div class="offset-by-six six columns">
-                    <label for="exampleEmailInput">Your email</label>
-                    <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-                    <label for="exampleNameInput">Your email</label>
-                    <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleNameInput">
-                    <label for="exampleMessage">Message</label>
-                    <textarea class="u-full-width" placeholder="Hi Vladimir …" id="exampleMessage"></textarea>
-                    <hr>
-                    <ul>
-                        <li><a href="">Facebook Icon</a></li>
-                        <li><a href="">Vk Icon</a></li>
-                        <li><a href="">Twitter</a></li>
-                        <li><a href="">Linked</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-
-<section class="quote">
+<section id="connection">
     <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <blockquote>
-                    Never stop learning
-                </blockquote>
+                <h2 class="start-title">Connection</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-by-six six columns">
+                <label for="exampleEmailInput">Your email</label>
+                <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                <label for="exampleNameInput">Your email</label>
+                <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleNameInput">
+                <label for="exampleMessage">Message</label>
+                <textarea class="u-full-width" placeholder="Hi Vladimir …" id="exampleMessage"></textarea>
+                <div class="btn-blue">Send</div>
+                <hr>
+                <ul>
+                    <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+
             </div>
         </div>
     </div>
 </section>
 
 
+<section id="quote">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <blockquote>
+                    <span class="love">-</span> Never stop learning <span class="love">-</span>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

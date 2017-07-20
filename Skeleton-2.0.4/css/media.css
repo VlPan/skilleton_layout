@@ -1,0 +1,96 @@
+/* Mobile first queries */
+
+/* Larger than mobile */
+
+@media (max-width: 361px) {
+
+    header nav ul li {
+        margin: 3px;
+    }
+
+    #skills .wave {
+        display: none;
+    }
+}
+
+@media (min-width: 362px) and (max-width: 425px) {
+
+    header nav ul li {
+        border: 2px solid white;
+        width: 70px;
+        height: 70px;
+    }
+
+    header nav ul li a {
+        line-height: 70px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 474px) {
+
+    header nav ul li {
+        border: 2px solid white;
+        width: 80px;
+        height: 80px;
+    }
+
+    header nav ul li a {
+        line-height: 80px;
+    }
+}
+
+@media (min-width: 475px) and (max-width: 518px) {
+
+    header nav ul li {
+        border: 2px solid white;
+        width: 90px;
+        height: 90px;
+    }
+
+    header nav ul li a {
+        line-height: 90px;
+    }
+}
+
+@media (max-width: 620px) {
+    header nav ul li {
+        border: 5px solid white;
+    }
+}
+
+/* Larger than tablet */
+@media (max-width: 840px) {
+
+    header h1 {
+        font-size: 3.2rem;
+    }
+
+    header h4 {
+        font-size: 2.0rem;
+        margin-bottom: 90px;
+    }
+
+    header .btn {
+        margin-bottom: 150px;
+    }
+
+    h2.start-title {
+        margin-bottom: 40px;
+    }
+
+    #quote {
+        padding: 70px 0;
+    }
+}
+
+/* Larger than desktop */
+@media (max-width: 985px) {
+    header .wave {
+        display: none;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+}
